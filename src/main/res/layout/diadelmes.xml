@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/mango"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="20dp"
+            android:layout_marginTop="40dp"
+            >
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.25"
+                android:background="@drawable/anguloizquierdo"
+                android:onClick="previousMonthAction"
+                android:textColor="@color/blue"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/monthYearTV"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:text="10 Feb 2021"
+                android:textAlignment="center"
+                android:textColor="#0E0E0E"
+                android:textSize="20dp"
+                android:layout_marginEnd="90px"/>
+
+
+
+
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="130px"
+
+        >
+
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:padding="30px"
+            android:background="@drawable/bordetitulo"
+            android:text="Hora de entrada"
+            android:textAlignment="center"
+            android:textColor="#0E0E0E"
+            android:textSize="16dp" />
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:padding="30px"
+            android:background="@drawable/bordetitulo"
+            android:text="Hora de Salida"
+            android:textAlignment="center"
+            android:textColor="#0E0E0E"
+            android:textSize="16dp" />
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:padding="20px"
+            android:text="12:00"
+            android:background="@drawable/bordertitulo2"
+            android:textAlignment="center"
+            android:textColor="#0E0E0E"
+            android:textSize="16dp" />
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:padding="20px"
+            android:text="18:00"
+            android:background="@drawable/bordertitulo2"
+            android:textAlignment="center"
+            android:textColor="#0E0E0E"
+            android:textSize="16dp" />
+
+
+    </LinearLayout>
+
+</LinearLayout>
